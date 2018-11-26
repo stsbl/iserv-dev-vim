@@ -1,0 +1,6 @@
+debian/stsbl-iserv-dev-vim/*
+debian/stsbl-iserv-dev-vim.substvars
+debian/stsbl-iserv-dev-vim.debhelper.log
+debian/files
+debian/debhelper-build-stamp
+debian/*.debhelper

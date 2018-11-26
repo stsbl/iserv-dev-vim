@@ -1,0 +1,9 @@
+MkDir 0755 root:root /etc/vim/{autoload,doc}
+
+Link /usr/share/vim-youcompleteme/plugin/youcompleteme.vim
+  /etc/vim/plugin/youcompleteme.vim
+Link /usr/share/vim-youcompleteme/autoload/youcompleteme.vim
+  /etc/vim/autoload/youcompleteme.vim
+Link /usr/share/vim-youcompleteme/doc/youcompleteme.txt
+  /etc/vim/doc/youcompleteme.txt
+
