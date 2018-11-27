@@ -1,5 +1,5 @@
-stsbl-iserv-dev-vim (18.11.26-1) unstable; urgency=medium
+stsbl-iserv-dev-vim (18.11.27-1) experimental; urgency=medium
 
-  * Initial Release.
+  * Initial release
 
- -- Stadtteilschule Blankenese <repository@stsbl.de>  Mon, 26 Nov 2018 03:33:23 +0100
+ -- Felix Jacobi <felix.jacobi@stsbl.de>  Tue, 27 Nov 2018 01:49:02 +0100
