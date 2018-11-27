@@ -14,6 +14,7 @@ Depends: ${misc:Depends},
   vim-addon-manager,
   vim-youcompleteme,
   vim,
+Xb-Private-IServ-Revision: ${iserv:Revision}
 Description: IServ Entwicklungswerkzeuge - VIM
  Enthält zusätzliche für die Entwicklung relevante Einstellungen für den Editor
  VIM.
