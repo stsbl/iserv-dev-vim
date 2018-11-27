@@ -1,3 +1,9 @@
+stsbl-iserv-dev-vim (18.11.27-2) experimental; urgency=medium
+
+  * Fixed revision
+
+ -- Felix Jacobi <felix.jacobi@stsbl.de>  Tue, 27 Nov 2018 01:50:37 +0100
+
 stsbl-iserv-dev-vim (18.11.27-1) experimental; urgency=medium
 
   * Initial release
