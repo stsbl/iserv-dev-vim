@@ -7,3 +7,8 @@ Link /usr/share/vim-youcompleteme/autoload/youcompleteme.vim
 Link /usr/share/vim-youcompleteme/doc/youcompleteme.txt
   /etc/vim/doc/youcompleteme.txt
 
+Test "select vim.nox"
+  update-alternatives --query vim | grep '^Value: /usr/bin/vim.nox$'
+  ---
+  update-alternatives --set vim /usr/bin/vim.nox
+
