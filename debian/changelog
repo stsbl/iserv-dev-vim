@@ -1,3 +1,10 @@
+stsbl-iserv-dev-vim (19.03.14-1) experimental; urgency=medium
+
+  * Updated source format
+  * Explictly select vim.nox using update-alternatives
+
+ -- Felix Jacobi <Felix@jacobi-hamburg.net>  Thu, 14 Mar 2019 13:36:19 +0100
+
 stsbl-iserv-dev-vim (18.11.27-2) experimental; urgency=medium
 
   * Fixed revision
