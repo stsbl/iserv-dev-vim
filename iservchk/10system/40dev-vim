@@ -1,14 +1,10 @@
-MkDir 0755 root:root /etc/vim/{autoload,doc}
-
-Link /usr/share/vim-youcompleteme/plugin/youcompleteme.vim
-  /etc/vim/plugin/youcompleteme.vim
-Link /usr/share/vim-youcompleteme/autoload/youcompleteme.vim
-  /etc/vim/autoload/youcompleteme.vim
-Link /usr/share/vim-youcompleteme/doc/youcompleteme.txt
-  /etc/vim/doc/youcompleteme.txt
-
 Test "select vim.nox"
   update-alternatives --query vim | grep '^Value: /usr/bin/vim.nox$'
   ---
   update-alternatives --set vim /usr/bin/vim.nox
+
+Test "enable vim plugin youcompleteme"
+  vam -w -q show youcompleteme | grep -q '^Status: installed$'
+  ---
+  vam -w -q install youcompleteme
 

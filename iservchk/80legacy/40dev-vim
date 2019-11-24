@@ -1,0 +1,24 @@
+Test "remove /etc/vim/autoload"
+  ! [ -d "/etc/vim/autoload" ] ||
+      grep -q '^40dev-vim_remove_autoload$' /var/lib/iserv/config/update.log
+  ---
+  rm -f /etc/vim/autoload/youcompleteme.vim
+  rmdir --ignore-fail-on-non-empty /etc/vim/autoload &&
+      echo 40dev-vim_remove_autoload >> /var/lib/iserv/config/update.log
+
+Test "remove /etc/vim/doc"
+  ! [ -d "/etc/vim/doc" ] ||
+      grep -q '^40dev-vim_remove_doc$' /var/lib/iserv/config/update.log
+  ---
+  rm -f /etc/vim/doc/youcompleteme.txt
+  rmdir --ignore-fail-on-non-empty /etc/vim/doc &&
+      echo 40dev-vim_remove_doc >> /var/lib/iserv/config/update.log
+
+Test "remove /etc/vim/plugin"
+  ! [ -d "/etc/vim/plugin" ] ||
+      grep -q '^40dev-vim_remove_plugin$' /var/lib/iserv/config/update.log
+  ---
+  rm -f /etc/vim/plugin/youcompleteme.vim
+  rmdir --ignore-fail-on-non-empty /etc/vim/plugin &&
+      echo 40dev-vim_remove_plugin >> /var/lib/iserv/config/update.log
+
