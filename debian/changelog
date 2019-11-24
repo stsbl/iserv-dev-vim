@@ -1,3 +1,10 @@
+stsbl-iserv-dev-vim (19.11.24-1) stable; urgency=medium
+
+  * Bumped copyright
+  * Fixed youcompleteme plugin integration for Debian buster
+
+ -- Felix Jacobi <Felix@jacobi-hamburg.net>  Sun, 24 Nov 2019 01:46:40 +0100
+
 stsbl-iserv-dev-vim (19.03.14-2) experimental; urgency=medium
 
   * Updated copyright
