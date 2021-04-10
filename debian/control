@@ -1,20 +1,19 @@
 Source: stsbl-iserv-dev-vim
 Section: misc
-Priority: extra
+Priority: optional
 Maintainer: Stadtteilschule Blankenese <repository@stsbl.de>
-Build-Depends: debhelper (>= 10)
-Build-Depends-Indep: iserv-buildtools
-Standards-Version: 3.9.8
+Build-Depends: debhelper-compat (= 13), dh-sequence-iserv, dh-sequence-stsbl
+Standards-Version: 4.5.0
 
 Package: stsbl-iserv-dev-vim
 Architecture: all
-Depends: ${misc:Depends},
-  ${perl:Depends},
-  iserv-update,
-  vim-addon-manager,
-  vim-youcompleteme,
-  vim,
-Xb-Private-IServ-Revision: ${iserv:Revision}
+Depends: iserv-update,
+         vim,
+         vim-addon-manager,
+         vim-youcompleteme,
+         ${misc:Depends},
+         ${perl:Depends}
+Xb-Private-Iserv-Revision: ${iserv:Revision}
 Description: IServ Entwicklungswerkzeuge - VIM
  Enthält zusätzliche für die Entwicklung relevante Einstellungen für den Editor
  VIM.
