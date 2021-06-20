@@ -4,6 +4,7 @@ Priority: optional
 Maintainer: Stadtteilschule Blankenese <repository@stsbl.de>
 Build-Depends: debhelper-compat (= 13), dh-sequence-iserv, dh-sequence-stsbl
 Standards-Version: 4.5.0
+Homepage: https://it.stsbl.de/
 
 Package: stsbl-iserv-dev-vim
 Architecture: all
@@ -17,3 +18,4 @@ Xb-Private-Iserv-Revision: ${iserv:Revision}
 Description: IServ Entwicklungswerkzeuge - VIM
  Enthält zusätzliche für die Entwicklung relevante Einstellungen für den Editor
  VIM.
+Tag: suite::iserv
