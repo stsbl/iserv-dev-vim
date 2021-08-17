@@ -1,3 +1,9 @@
+stsbl-iserv-dev-vim (21.08.17.1) stable; urgency=medium
+
+  * Switched to git source format
+
+ -- Felix Jacobi <Felix@jacobi-hamburg.net>  Tue, 17 Aug 2021 23:13:19 +0200
+
 stsbl-iserv-dev-vim (21.06.20.1) stable; urgency=medium
 
   * Updated license copyright
